@@ -2,6 +2,8 @@ import Head from 'next/head';
 
 import Header from './components/Header';
 import Logo from './components/Logo';
+import NavBar from './components/NavBar';
+import NavLink from './components/NavLink';
 
 import styles from '../styles/Home.module.scss';
 
@@ -19,6 +21,9 @@ export default function Home() {
 
       <Header>
         <Logo />
+        <NavBar>
+          <NavLink title="Home" path="/" />
+        </NavBar>
       </Header>
     </>
   );
