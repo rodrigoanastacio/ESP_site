@@ -1,0 +1,19 @@
+.card {
+  background-color: var(--yellow);
+  width: 33.33%;
+  padding: 25px;
+  z-index: 999;
+  border-radius: 10px;
+
+  & + article {
+    margin-left: 25px;
+  }
+
+  h3 {
+    margin-bottom: 15px;
+  }
+
+  p {
+    color: var(--gray-700);
+  }
+}
