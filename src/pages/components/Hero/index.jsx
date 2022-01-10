@@ -7,7 +7,7 @@ export default function Hero() {
       <div className={styles.container}>
         <div className={styles.headline}>
           <h1>Estilo Segurança</h1>
-          <p>Segurança para todos os momentos</p>
+          <p>A segurança que precisa para todos os momentos</p>
         </div>
       </div>
     </div>
