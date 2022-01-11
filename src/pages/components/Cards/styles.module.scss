@@ -1,12 +1,19 @@
 .card {
   background-color: var(--yellow);
-  width: 33.33%;
+  flex: 1;
   padding: 25px;
-  z-index: 999;
+  z-index: 99;
   border-radius: 10px;
+  margin-bottom: 25px;
+
+  @media (min-width: 769px) {
+    margin-bottom: 0;
+  }
 
   & + article {
-    margin-left: 25px;
+    @media (min-width: 769px) {
+      margin-left: 25px;
+    }
   }
 
   h3 {
