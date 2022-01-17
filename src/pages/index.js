@@ -6,6 +6,7 @@ import NavBar from './components/NavBar';
 import NavLink from './components/NavLink';
 import Hero from './components/Hero';
 import Cards from './components/Cards';
+import Title from './components/Title';
 
 import styles from '../styles/Home.module.scss';
 
@@ -43,6 +44,15 @@ export default function Home() {
           <Cards
             title="Vigilância"
             content="Por exercer uma função receptiva, nossos profissionais de portaria são treinados com foco em relacionamento com pessoas, criando assim um ambiente seguro, agradável e educado."
+          />
+        </div>
+      </section>
+
+      <section className={styles.quality}>
+        <div className="container">
+          <Title
+            title="Qualidade e Excelência em Segurança"
+            subtitle="Inventore dolores tempore vitae praesentium quisquam quam aut esse iure officiis"
           />
         </div>
       </section>
