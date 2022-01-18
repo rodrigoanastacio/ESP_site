@@ -7,6 +7,7 @@ import NavLink from './components/NavLink';
 import Hero from './components/Hero';
 import Cards from './components/Cards';
 import Title from './components/Title';
+import SideBySide from './components/SideBySide';
 
 import styles from '../styles/Home.module.scss';
 
@@ -49,11 +50,13 @@ export default function Home() {
       </section>
 
       <section className={styles.quality}>
-        <div className="container">
+        <div className={styles.container}>
           <Title
             title="Qualidade e Excelência em Segurança"
             subtitle="Inventore dolores tempore vitae praesentium quisquam quam aut esse iure officiis"
           />
+
+          <SideBySide />
         </div>
       </section>
     </>
