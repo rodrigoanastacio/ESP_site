@@ -3,7 +3,6 @@ import Head from 'next/head';
 import Header from './components/Header';
 import Logo from './components/Logo';
 import NavBar from './components/NavBar';
-import NavLink from './components/NavLink';
 import Hero from './components/Hero';
 import Cards from './components/Cards';
 import Title from './components/Title';
@@ -26,9 +25,7 @@ export default function Home() {
 
       <Header>
         <Logo />
-        <NavBar>
-          <NavLink title="Home" path="/" />
-        </NavBar>
+        <NavBar />
       </Header>
 
       <Hero />
