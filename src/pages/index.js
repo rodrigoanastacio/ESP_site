@@ -8,6 +8,7 @@ import Hero from './components/Hero';
 import Cards from './components/Cards';
 import Title from './components/Title';
 import SideBySide from './components/SideBySide';
+import Footer from './components/Footer';
 
 import styles from '../styles/Home.module.scss';
 
@@ -59,6 +60,8 @@ export default function Home() {
           <SideBySide />
         </div>
       </section>
+
+      <Footer />
     </>
   );
 }
